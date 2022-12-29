@@ -1,8 +1,17 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  background-color: #023e8a;
+}
+
+h3 {
+  color: #fbfbff;
+}
+
+.blue-border {
+  border: lightblue dotted 3px;
 }
