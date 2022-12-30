@@ -7,23 +7,34 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container blue-border">
       <div class="blue-border">
         <h3>HOME</h3>
-        <p id="home-score"></p>
+        <p id="home-score" class="live-score"></p>
+
         <div id="home-buttons">
-          <button id="home-plus-one">+1</button>
-          <button id="home-plus-two">+2</button>
-          <button id="home-plus-three">+3</button>
+          <button class="score-btn" id="home-goal" onclick="homeScoreGoal()">
+            Goal(+3)
+          </button>
+          <button class="score-btn" id="home-point" onclick="homeScorePoint()">
+            Point(+1)
+          </button>
         </div>
       </div>
       <div class="blue-border">
         <h3>GUEST</h3>
-        <p id="guest-score"></p>
+        <p id="guest-score" class="live-score"></p>
         <div id="guest-buttons">
-          <button id="guest-plus-one">+1</button>
-          <button id="guest-plus-two">+2</button>
-          <button id="guest-plus-three">+3</button>
+          <button class="score-btn" id="guest-goal" onclick="guestScoreGoal()">
+            Goal(+3)
+          </button>
+          <button
+            class="score-btn"
+            id="guest-point"
+            onclick="guestScorePoint()"
+          >
+            Point(+1)
+          </button>
         </div>
       </div>
     </div>
