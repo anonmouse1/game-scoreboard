@@ -7,6 +7,7 @@ body {
   margin: 0;
   background-color: #023e8a;
   display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -28,18 +29,46 @@ h3 {
   font-family: "CursedTimerUlil-Aznm", sans-serif;
   font-size: 90px;
   margin: 0;
-  color: #ff331f;
+  color: #f5bb00;
   background-color: #1c1d21;
   border-radius: 5px;
 }
+
+.total-score {
+  color: #f5bb00;
+  font-size: 30px;
+}
 .score-btn {
   border: #fbfbff solid 1px;
+  border-radius: 5px;
   padding: 10px 15px;
   background-color: #023e8a;
   color: #fbfbff;
   margin: 10px;
+  font-size: 20px;
+}
+
+.score-btn:hover {
+  border: #82ff9e solid 2px;
+  color: #82ff9e;
 }
 
 .blue-border {
-  border: lightblue dotted 3px;
+  /*border: lightblue dotted 3px; */
+}
+
+#gaa-logo {
+  width: 300px;
+  color: #fbfbff;
+}
+
+.logo-container {
+  margin: 35px auto;
+}
+
+#results {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
