@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "CursedTimerUlil-Aznm", sans-serif;
-  src: url("CursedTimerUlil-Aznm.ttf");
+  font-family: "Segment7Standard", sans-serif;
+  src: url("Segment7Standard.otf");
 }
 
 body {
@@ -26,7 +26,7 @@ h3 {
 }
 
 .live-score {
-  font-family: "CursedTimerUlil-Aznm", sans-serif;
+  font-family: "Segment7Standard", sans-serif;
   font-size: 90px;
   margin: 0;
   color: #f5bb00;
