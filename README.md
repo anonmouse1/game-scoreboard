@@ -12,6 +12,6 @@ $ npm install
 $ npm start
 ```
 
-[Use it here: Live GAA Scorecard Website](https://game-scoreboard-beryl.vercel.app/)
+[Use it here --> Live GAA Scoreboard Website](https://game-scoreboard-beryl.vercel.app/)
 
-[Webpage](gaaScoreboard.png)
+[Frontend Visuals](gaaScoreboard.png)
